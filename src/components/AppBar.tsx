@@ -1,4 +1,4 @@
-// src/components/AppBar.tsx
+// AppBar.tsx
 import React from "react";
 import { AppBar as MuiAppBar, Toolbar, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -13,7 +13,7 @@ const AppBar: React.FC = () => {
           to="/"
           sx={{ textDecoration: "none", color: "inherit", marginRight: "20px" }}
         >
-          Home
+          Recipe Book
         </Typography>
         <Typography
           variant="h6"
@@ -21,7 +21,7 @@ const AppBar: React.FC = () => {
           to="/create"
           sx={{ textDecoration: "none", color: "inherit" }}
         >
-          Create Item
+          Create Recipe
         </Typography>
       </Toolbar>
     </MuiAppBar>
